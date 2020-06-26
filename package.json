@@ -1,0 +1,25 @@
+{
+  "name": "mvc_app",
+  "version": "1.0.0",
+  "description": "Demonstrating knowledge of MVC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoess/MVC_App.git"
+  },
+  "author": "Nick Schoess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schoess/MVC_App/issues"
+  },
+  "homepage": "https://github.com/schoess/MVC_App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
