@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+.burger-icon{
+    width:200px;
+}
+
+.menu-item{
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    margin: 2px;
+    color:rgb(0, 0, 0);
+}
+
+.eaten{
+    background-color: rgb(255, 0, 0);
+    padding:5px;
+    color:rgb(255, 255, 255);
+    text-decoration: line-through;
+}
+
+
+ol{
+    background:#d1d167;
+    padding:10px 20px;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn{
+    width:50%;
+    font-size: smaller;
+}

@@ -2,16 +2,16 @@
 <div class="container">
 
   <div class="text-center">
-    <h3>Eat-da-burger*</h3>
-    <img class="burger-icon" src="/assets/img/burger.png" />
-    <h6>*Cook da burger first though</h6>
+    <h3>Burger App</h3>
+    <img class="burger-icon" src="/assets/img/burger.jpg" />
+    <h6>"As rare as I can legally have it..."</h6>
   </div>
 
   <hr />
 
   <div class="row">
     <div class="col-sm-6">
-      <h3 class="heading">Redy to eat</h3>
+      <h3 class="heading">Uneaten</h3>
       <ul class="list-group">
         {{#each burger}}
         {{#unless devoured}}
@@ -26,7 +26,7 @@
       </ul>
     </div>
     <div class="col-sm-6">
-      <h3 class="heading">DEVOURED!</h3>
+      <h3 class="heading">Eaten</h3>
       <ul class="list-group">
         {{#each burger}}
         {{#if devoured}}
@@ -46,7 +46,7 @@
       <div class="form-group">
         <textarea placeholder="Add a burger" type="text" id="newBurger" name="name" cols="50"></textarea>
       </div>
-      <button class="btn btn-success" type="submit">COOK IT!</button>
+      <button class="btn btn-danger" type="submit">Make Burger</button>
     </form>
   </div>
 
