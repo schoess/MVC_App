@@ -8,12 +8,14 @@ let burger = {
     });
   },
   insertOne: function (newName, cb) {
+    console.log(newName)
     orm.insertOne("burgers", "burger_name", newName, function (res) {
       cb(res);
     });
   },
   updateOne: function (id, cb) {
-    orm.updateOne("burgers", "devoured", true, id, function (res) {
+    var condition = "id=" + id
+    orm.updateOne("burgers", {"devoured": true}, condition, function (res) {
       cb(res);
     });
   }
